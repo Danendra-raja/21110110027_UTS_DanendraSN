@@ -61,7 +61,7 @@
                             echo "<td>" . $row['email'] . "</td>";
                             echo "<td>" . $row['alamat'] . "</td>";
                             echo "<td>" . $row['jenis_kelamin'] . "</td>";
-                            echo "<td>" . $row['foto'] . "</td>";
+                            echo "<td class='text-dark'> <img src='gambar/".$row['foto']."' width='80px'> </td>";
                             echo "<td>" . $row['agama'] . "</td>";
                             echo "<td>" . $row['tempat_lahir'] . "</td>";
                             echo "<td>" . $row['tanggal_lahir'] . "</td>";

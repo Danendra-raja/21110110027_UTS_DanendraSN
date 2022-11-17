@@ -1,7 +1,7 @@
 <!-- Footer -->
-<footer class="sticky-footer bg-white">
+<footer class="sticky-footer bg-gradient-primary">
                 <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
+                    <div class="copyright text-center text-light my-auto">
                         <span>Copyright &copy; danendrasn2022</span>
                     </div>
                 </div>
@@ -31,8 +31,8 @@
                 </div>
                 <div class="modal-body">Klik Logout untuk mengakhiri sesi .</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="logout.php">Logout</a>
+                    <button class="btn btn-primary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-danger" href="logout.php">Logout</a>
                 </div>
             </div>
         </div>

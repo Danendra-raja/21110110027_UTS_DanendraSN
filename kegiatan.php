@@ -46,7 +46,8 @@
                             echo "<td>" . $row['jam_selesai'] . "</td>";
                             echo "<td>" . $row['nama_kegiatan'] . "</td>";
                             echo "<td>" . $row['narasumber'] . "</td>";
-                            echo "<td>" . $row['pic'] . "</td>";
+                            // echo "<td>" . $row['pic'] . "</td>";
+                            echo "<td class='text-dark'> <img src='gambar/".$row['pic']."' width='80px'> </td>";
                             echo "<td><a href=\"kegiatan_edit.php?id=" . $row['id'] . "\">Edit</a> | 
                         <a href=\"kegiatan_pro_delete.php?id=" . $row['id'] . "\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a></td>";
                             echo "</tr>";

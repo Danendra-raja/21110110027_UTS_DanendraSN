@@ -136,7 +136,7 @@
 
                         <div class="form-group">
                             <label>Foto</label>
-                            <input type="file" placeholder="Foto" name="foto" value="<?= $foto; ?>">
+                            <input type="file" placeholder="Foto" name="foto">
                         </div>
                     </table>
                     <br>

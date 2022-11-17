@@ -313,27 +313,3 @@
 </ul>
 
 </nav>
-<!-- End of Topbar -->
-                        <?php
-                        include_once("connection.php");
-                        $no = 0;
-                        $result = mysqli_query($mysqli, "SELECT * FROM tab_kelompok");
-                        while ($row = mysqli_fetch_array($result)) {
-                            $id_kelompok = $row['id'];
-                            $no++;
-                            echo "<tr>";
-                            echo "<td>" . $no . "</td>";
-                            echo "<td>" . $row['nama_kelompok'] . "</td>";
-
-                        $result_peserta = mysqli_query($mysqli, " SELECT b.nama FROM tab_peserta_kelompok as a left join tab_peserta as b on a.nim = b.nim WHERE a.id_kelompok = '$id_kelompok' ");
-                        $rowx = mysqli_fetch_assoc($result_peserta);
-                        if(!empty($rowx)){
-                                echo "<td>";
-                                $peserta = mysqli_query($mysqli, " SELECT b.nama FROM tab_peserta_kelompok as a left join tab_peserta as b on a.nim = b.nim WHERE a.id_kelompok = '$id_kelompok' ");
-                                while ($pesertax = mysqli_fetch_array($peserta)){
-                                echo "<li>".$pesertax['nama']."</li><br></td>";
-                            } 
-                        }else{
-                            echo"<td><a href='set_kelompok.php?id=$id_kelompok' class='btn btn-info'>Set Kelompok</a></td>";
-                        }
-                        ?>

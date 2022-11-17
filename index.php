@@ -33,22 +33,11 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
             <div class="container px-5">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#!">Sign Up</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Log In</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-            <div class="container px-5">
                 <a class="navbar-brand" href="#page-top">PASWA 2022</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="daftar.php">Sign Up</a></li>
+                        <li class="nav-item"><a class="nav-link" href="daftar.php">Daftar Paswa</a></li>
                         <li class="nav-item"><a class="nav-link" href="login.php">Log In</a></li>
                     </ul>
                 </div>
@@ -75,6 +64,7 @@
             <div class="bg-circle-4 bg-circle"></div>
         </header>
         <!-- Content section 1-->
+        <div class="bg-danger">
         <section id="scroll">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
@@ -90,9 +80,10 @@
                 </div>
             </div>
         </section>
+        </div>
         <!-- Content section 2-->
-        <section>
-            <div class="container px-5">
+        <section id="scroll" class="bg-primary">
+            <div class="container px-5 bg-pr">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
                         <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/02.jpg" alt="..." /></div>
@@ -107,7 +98,7 @@
             </div>
         </section>
         <!-- Content section 3-->
-        <section>
+        <section id="scroll" class="bg-warning">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
@@ -123,7 +114,7 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="py-5 bg-black">
+        <footer class="py-5 bg-danger">
             <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; danendrasn 2022</p></div>
         </footer>
         <!-- Bootstrap core JS-->

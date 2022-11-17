@@ -5,9 +5,10 @@
 <div class="container-fluid">
 
     <!-- Page Heading -->
-    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+    <div class="d-sm-flex align-items-center left-content-between mb-4">
+        <img src="assets/paswir.png" width="100px" height="100px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h1 class="h1 mb-0 text-dark">Dashboard Admin PASWA 2022</h1>
+        <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
     </div>
 
     <!-- Content Row -->
@@ -74,7 +75,7 @@
                             <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $t_peserta; ?></div>
                         </div>
                         <div class="col-auto">
-                            <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                            <i class="fas fa-address-card fa-2x text-primary"></i>
                         </div>
                     </div>
                 </div>
@@ -91,7 +92,7 @@
                             <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $t_kelompok; ?></div>
                         </div>
                         <div class="col-auto">
-                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                            <i class="fab fa-mendeley fa-2x text-success"></i>
                         </div>
                     </div>
                 </div>
@@ -100,33 +101,33 @@
 
         <!-- Earnings (Monthly) Card Example -->
         <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-left-info shadow h-100 py-2">
+            <div class="card border-left-danger shadow h-100 py-2">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
                                 Total Panitia</div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $t_panitia; ?></div>
                         </div>
                         <div class="col-auto">
-                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                            <i class="fas fa-fist-raised fa-2x text-danger"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        
         <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-left-warning shadow h-100 py-2">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
                                 Total Kegiatan</div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $t_kegiatan; ?></div>
                         </div>
                         <div class="col-auto">
-                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                            <i class="fas fa-money-check fa-2x text-warning"></i>
                         </div>
                     </div>
                 </div>
@@ -134,16 +135,16 @@
         </div>
 
         <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-left-warning shadow h-100 py-2">
+            <div class="card border-left-primary shadow h-100 py-2">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                 Total Tamu</div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $t_tamu; ?></div>
                         </div>
                         <div class="col-auto">
-                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                            <i class="fas fa-restroom fa-2x text-primary"></i>
                         </div>
                     </div>
                 </div>
@@ -151,7 +152,7 @@
         </div>
 
         <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-left-info shadow h-100 py-2">
+            <div class="card border-left-success shadow h-100 py-2">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
@@ -160,7 +161,7 @@
                             <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $t_perlengkapan; ?></div>
                         </div>
                         <div class="col-auto">
-                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                            <i class="fas fa-gavel fa-2x text-success"></i>
                         </div>
                     </div>
                 </div>
@@ -170,16 +171,16 @@
 
     </div>
     <br>
-    <h1>Tata Tertib PASWA 2022</h1>
+    <h1 class="text-dark">Tata Tertib PASWA 2022</h1>
         <table class="table align-middle table-row-dashed fs-6 gy-5" id="datatable">
             <thead>
-                <tr class="text-start text-gray-400 fw-bolder fs-7 text-uppercase gs-0">
+                <tr class="text-start text-dark fw-bolder fs-7 text-uppercase gs-0">
                     <th class="min-w-15px">No.</th>
                     <th class="min-w-225px">Nama Tata Tertib</th>
 
                 </tr>
             </thead>
-            <tbody class="fw-bold text-gray-600">
+            <tbody class="fw-bold text-danger">
                 <?php
 
                 include_once("connection.php");
@@ -196,4 +197,5 @@
             </tbody>
         </table>
     <!-- End of Main Content -->
-    <?php include('footer.php'); ?>
+</div>
+<?php include('footer.php'); ?>

@@ -9,7 +9,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard.php">
                 <div class="sidebar-brand-icon rotate-n-0">
-                    <i class="fas fa-laugh-wink"></i>
+                    <i><img src="assets/logo-paswa.ico" width="50px"></i>
                 </div>
                 <div class="sidebar-brand-text mx-3">PASWA <sup>2022</sup></div>
             </a>
@@ -20,7 +20,7 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="dashboard.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <i><img src="assets/tools.png" width="25px">&nbsp;</i>
                     <span>Dashboard</span></a>
             </li>
 
@@ -137,7 +137,7 @@
 <div id="content">
 
     <!-- Topbar -->
-    <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+    <nav class="navbar navbar-expand navbar-primary bg-gradient-primary topbar mb-4 static-top shadow">
 
         <!-- Sidebar Toggle (Topbar) -->
         <form class="form-inline">
@@ -176,13 +176,13 @@
             </li>
 
 
-            <div class="topbar-divider d-none d-sm-block"></div>
+            <div class="topbar-divider  d-none d-sm-block"></div>
 
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION['valid']; ?></span>
+                    <span class="mr-2 d-none d-lg-inline text-light"><?php echo strtoupper($_SESSION['valid']); ?></span>
                     <img class="img-profile rounded-circle"
                         src="assets/raja.jpg">
                 </a>

@@ -47,7 +47,7 @@
                 <div class="card o-hidden border-0 shadow-lg my-5">
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
-                        <div class="row">
+                        <div class="row bg-light">
                             <div class="col-lg-6 d-none d-lg-block"><img src="assets/paswir.png"></div>
                             <div class="col-lg-6">
                                 <div class="p-5">
@@ -104,7 +104,7 @@
                                             </div>
                                             <button name="submit" class="btn btn-primary btn-user btn-block">Submit</button>
                                             <div class="margin">
-                                                <a href="index.php" class="btn btn-primary btn-user btn-block">Return</a>
+                                                <a href="index.php" class="btn btn-danger btn-user btn-block">Return</a>
                                             </div>
                                             <!-- <input type="submit" name="submit" value="Submit" class="btn btn-primary btn-user btn-block"> -->
                                         </form>
@@ -113,11 +113,8 @@
                                     <?php } ?>
                                     <!-- <div class="margin">
                                     <a href="index.php"><button class="btn btn-primary btn-user btn-block">Return</button></a> -->
-                                    <div class="text-center margin">
-                                        <a class="small" href="forgot-password.php">Forgot Password?</a>
-                                    </div>
                                     <div class="text-center">
-                                        <a class="small" href="daftar.php">Create an Account!</a>
+                                        <a class="small" href="daftar.php">Kamu mahasiswa? Daftarkan diri sekarang!</a>
                                     </div>
                                 </div>
                             </div>

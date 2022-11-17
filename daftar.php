@@ -60,7 +60,7 @@
                 <div class="card o-hidden border-0 shadow-lg my-5">
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
-                        <div class="row">
+                        <div class="row bg-light">
                             <div class="col-lg- d-none d-lg-block text-center"><img src="assets/paswir.png" width="250px" height="250px"></div>
                             <div class="col-lg-15 text-center">
                                 <div class="p-5"> 
@@ -202,13 +202,10 @@
                                 </div>
                                     <input type="submit" class="btn btn-primary btn-user btn-block">
                                 <div class="margin">
-                                    <a href="index.php"><input type="button" value="Return" class="btn btn-primary btn-user btn-block"></a>
+                                    <a href="index.php"><input type="button" value="Return" class="btn btn-danger btn-user btn-block"></a>
                                 </div>
                                 <div class="text-center">
-                                    <a class="small" href="forgot-password.html">Forgot Password?</a>
-                                </div>
-                                <div class="text-center">
-                                    <a class="small" href="login.php">Already have an account? Login!</a>
+                                    <a class="small" href="login.php">Kamu admin? Login disini ya!</a>
                                 </div>
                             </form>
                                 </div>
